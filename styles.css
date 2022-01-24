@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.logo {
+  position: fixed;
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 100%;
+  z-index: 1;
+}
+.outer-grid {
+  display: grid;
+  gap: 50px;
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+.flex-container0,
+.flex-container1,
+.flex-container2,
+.flex-container3,
+.flex-container4,
+.flex-container5,
+.flex-container6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image1 {
+  width: 375px;
+  height: 441.18px;
+}
+.image2 {
+  width: 300px;
+  height: 428.57px;
+}
+.image3 {
+  width: 344px;
+  height: 413.38px;
+}
+.image4 {
+  width: 300px;
+  height: 361.68px;
+}
+.image5 {
+  width: 300px;
+  height: 394.74px;
+}
+.image6 {
+  width: 300px;
+  height: 370px;
+}
+h1 {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 70px;
+}
+p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  width: 344px;
+  font-size: 16px;
+  line-height: 167%;
+}
+.appstore {
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 25px 15px 25px;
+  font-size: 18px;
+}
+.playstore {
+  background: #3b4856;
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  padding: 15px 25px 15px 25px;
+}
+footer {
+  color: #ffffff;
+  background: #3b4856;
+  padding: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 391px) {
+  .flex-container0 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .flex-container1,
+  .flex-container3,
+  .flex-container5 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .flex-container2,
+  .flex-container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .flex-container6 {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-section3 {
+    position: absolute;
+    top: 500px;
+    left: 210px;
+    z-index: -1;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  p {
+    font-size: 24px;
+    width: 612px;
+  }
+  .image1 {
+    width: 680px;
+    height: 800px;
+  }
+  .image2 {
+    width: 455px;
+    height: 650px;
+  }
+  .image3 {
+    width: 540.91px;
+    height: 650px;
+  }
+  .image4 {
+    width: 539.15px;
+    height: 650px;
+  }
+  .image5 {
+    width: 494px;
+    height: 650px;
+  }
+  .image6 {
+    width: 596px;
+    height: 735px;
+  }
+  footer {
+    padding: 20px;
+    width: 100%;
+  }
+  .logo {
+    position: fixed;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 1;
+  }
+}
